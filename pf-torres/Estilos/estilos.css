@@ -1,0 +1,275 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    
+        background-image: url(../Imagenes/background.jpg);
+        background-size: cover;
+        font-family: 'Raleway', sans-serif;
+        font-size: 120%;
+
+}
+
+
+/*------------------Grid y Flex-------------*/
+/*Index*/
+
+.mainA{
+    margin: 10px;
+}
+
+#header {
+    margin: 1px;
+    width: 700px;
+    position: center;
+
+    display: inline-block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: rgb(44, 43, 102);
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav>li {
+    float: center;
+}
+
+/*----------------------Menu de bloques-------------------- */
+#block {
+
+  
+    width: 300px;
+    height:100px;
+    position: center;
+    margin-right: 650px;
+   
+   
+
+  
+    display: inline-block;
+}
+
+#block2 {
+
+    width: 300px;
+    height: 100px;
+ 
+    
+    display: inline-block;
+}
+
+#block3 {
+
+
+    width: 300px;
+    height:100px;
+
+ 
+
+    display: inline-block;
+}
+
+#block4 {
+
+
+    width: 900px;
+    height: 900px;
+
+    margin-top: -1000px;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav2 li a {
+    background-color: rgb(133, 133, 133);
+    color: black;
+    text-decoration: none;
+    display: block;
+    height: 450px;
+    width: 900px;
+ 
+}
+
+.nav2 li a:hover {
+    background-color: grey;
+    
+}
+
+.nav2 li ul {
+    display: center;
+    position: absolute;
+    min-width: 200px;
+    
+}
+
+.nav2 li:hover>ul {
+    display: block;
+}
+
+.nav2>li {
+    float: center;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav3 li a {
+    background-color: rgb(133, 133, 133);
+    color: black;
+    text-decoration: none;
+    display: block;
+    height: 450px;
+    width: 900px;
+}
+
+.nav3 li a:hover {
+    background-color: grey;
+    
+    
+}
+
+.nav3 li ul {
+    display: center;
+    position: absolute;
+    min-width: 200px;
+}
+
+.nav3 li:hover>ul {
+    display: block;
+}
+
+.nav3>li {
+    background-color: rgb(97, 95, 219);
+    color: rgb(238, 255, 0);
+    text-decoration: none;
+    height: 450px;
+    display: block;
+    
+    
+    
+}
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------------------------Etiquetas-------------------------*/
+
+
+
+.titulo {
+    text-align: center;
+    color: rgb(255, 238, 0);
+    font-size:100%;
+    display: block;
+}
+
+.titulo2 {
+    text-align: center;
+    color: rgb(255, 238, 0);
+    font-size:220%;
+    display: block;
+}
+
+.banner{
+
+    width: 900px;
+    height: 300px;
+    background-image: url(../Imagenes/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+   margin: 0px 0px 0px 0px
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    background-image: url(../Imagenes/logo.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-left: 750px;
+    
+}
+
+.picture1{
+    width: 900px;
+    height: 300px;
+    background-image: url(../Imagenes/sayonara.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-left: 0px;
+    
+}
+
+.footer{
+    margin-top: -400px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.footer2{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.footer{
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.footer2{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+.textBlocks{
+    width: 900px;
+    height: 400px;
+    background-color: rgba(83, 78, 78, 0.5);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 70px;
+ 
+}
+.margen{
+    margin-right: 5px;
+}
+  
